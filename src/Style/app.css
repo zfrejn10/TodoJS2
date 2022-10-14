@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid teal;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.true {
+    background-color: rgba(14, 200, 200, 0.5);
+    border: 2px solid rgb(91, 100, 195);
+}
